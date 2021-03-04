@@ -110,7 +110,7 @@ function keyPressed(){
    }
 }
 async function getBG(){
-   var response=await fetch("http://worldtimeapi.org/api/timezone/Europe/London");
+   var response=await fetch("http://worldtimeapi.org/api/timezone/Asia/Kolkata");
    var responsejson=await response.json();
    var dt= responsejson.datetime;
    var hour=dt.slice(14,16);
